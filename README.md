@@ -11,13 +11,20 @@ flex_string.h flex_string_shell.h is borrowed from loki library, with many chang
 Now it is just can be used as a library in single thread. In the future minimemcache will be used as a service of ACE server and support multithread operation.
 
 Commands:
-	ls               : list all items
-	clear            : erase all items in the cache
-	eraseold         : erase oldest item in the cache
-	erasen number    : number indicate the num of items to erase. negative means erase new.
-	erase  Id        : erase item with key Id.
-	set id attribute : insert <id,attribute> pair in the cache, id is the key of item.
-	get    id        : print attribute of id.
+
+    ls               : list all items.
+    
+    clear            : erase all items in the cache.
+    
+    eraseold         : erase oldest item in the cache.
+    
+    erasen number    : number indicate the num of items to erase. negative means erase new.
+    
+    erase  Id        : erase item with key Id.
+    
+    set id attribute : insert <id,attribute> pair in the cache, id is the key of item.
+    
+    get    id        : print attribute of id.
 
 author jiayuehua gracedancer@163.com
 
